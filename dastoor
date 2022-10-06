@@ -2,3 +2,4 @@ pyinstaller ./hooshmand.py  --add-binary "./driver/chromedriver.exe;./driver" --
 pyinstaller ./beta-0.1.py  --add-binary "./driver/chromedriver.exe;./driver" --add-data "crd.json;."
 pyinstaller ./beta-0.2.py  --add-binary "./driver/chromedriver.exe;./driver" --add-data "crd.json;."
 pyinstaller ./ACAUTO.py  --add-binary "./driver/chromedriver.exe;./driver" --add-data "crd.json;." -D
+pyinstaller ./record_session.py  --add-binary "./driver/chromedriver.exe;./driver" --add-data "crd/crd.json;." -D
